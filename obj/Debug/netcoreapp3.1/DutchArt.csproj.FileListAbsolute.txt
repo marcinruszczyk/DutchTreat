@@ -18,3 +18,4 @@ D:\Tutoriale\DutchArt\DutchArt\obj\Debug\netcoreapp3.1\DutchArt.RazorTargetAssem
 D:\Tutoriale\DutchArt\DutchArt\obj\Debug\netcoreapp3.1\DutchArt.dll
 D:\Tutoriale\DutchArt\DutchArt\obj\Debug\netcoreapp3.1\DutchArt.pdb
 D:\Tutoriale\DutchArt\DutchArt\obj\Debug\netcoreapp3.1\DutchArt.genruntimeconfig.cache
+D:\Tutoriale\DutchArt\DutchArt\bin\Debug\netcoreapp3.1\libman.json
