@@ -1,0 +1,8 @@
+﻿{
+  "Colors": {
+    "Favorite": "Blue"
+  },
+  "ConnectionStrings": {
+    "DutchConnectionString": "Data Source=(localdb)\\Marcin;Initial Catalog=DutchTreatDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets = true;"
+  }
+}
