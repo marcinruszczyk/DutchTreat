@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2vTpWShjiadYsV6NpKF1AA1rV+h1MlqdAvxK1mtuJnJHpLQwRU/dyXL6gTmCG3iIq238TQWzNN7grYAJxULBAQ==",
+  "dgSpecHash": "XBKHbr9TaldLH0I8xAZ0LQh2S1jSXaDyUL+kiGz0nVzuMaeJUUd8cV+v28ByAPXCYUDwLwW0mc6ELGVT8L/jEA==",
   "success": true,
   "projectFilePath": "D:\\DutchTreat\\DutchArt.csproj",
   "expectedPackageFiles": [
@@ -165,8 +165,14 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\marci\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\DutchTreat\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
