@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUMdP5/d/CANuDtdD+wU/a8wWmE8IbHV1FJjwqtIBNYkNmD2y2yqi0CpIOzgeZWJtQhgTxW+wOtTNqYjLdtljQ==",
+  "dgSpecHash": "Yb7p9prdZKhS+tNanPwtEWrh3WPITcfP61vZghmRHueqCNRDWlz15o70hkMtku1kqnUE88RYNo8ofem5ViOIBQ==",
   "success": true,
-  "projectFilePath": "D:\\Tutoriale\\DutchArt\\DutchArt\\DutchArt.csproj",
+  "projectFilePath": "D:\\DutchTreat\\DutchArt.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.32\\microsoft.aspnetcore.mvc.razor.extensions.3.1.32.nupkg.sha512",

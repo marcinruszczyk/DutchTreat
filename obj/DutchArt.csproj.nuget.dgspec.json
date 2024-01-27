@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tutoriale\\DutchArt\\DutchArt\\DutchArt.csproj": {}
+    "D:\\DutchTreat\\DutchArt.csproj": {}
   },
   "projects": {
-    "D:\\Tutoriale\\DutchArt\\DutchArt\\DutchArt.csproj": {
+    "D:\\DutchTreat\\DutchArt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tutoriale\\DutchArt\\DutchArt\\DutchArt.csproj",
+        "projectUniqueName": "D:\\DutchTreat\\DutchArt.csproj",
         "projectName": "DutchArt",
-        "projectPath": "D:\\Tutoriale\\DutchArt\\DutchArt\\DutchArt.csproj",
+        "projectPath": "D:\\DutchTreat\\DutchArt.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\Tutoriale\\DutchArt\\DutchArt\\obj\\",
+        "outputPath": "D:\\DutchTreat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
