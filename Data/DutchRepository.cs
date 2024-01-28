@@ -1,4 +1,5 @@
 ﻿using DutchArt.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,26 @@ namespace DutchArt.Data
             _logger = logger;
         }
 
+       
+
+        public IEnumerable<Order> GetAllOrders(bool includeItems)
+        {
+           
+            if (includeItems)
+            {
+                return _ctx.Orders
+                              .Include(o => o.Items)
+                              .ThenInclude(i => i.Product)
+                              .ToList();
+            }
+            else
+            {
+                return _ctx.Orders
+                    .ToList();
+            }
+                      
+        }
+
         public IEnumerable<Product> GetAllProducts()
         {
 
@@ -35,10 +56,15 @@ namespace DutchArt.Data
                 _logger.LogError($"Failed to get all products: {ex}");
                 return null;
             }
+        }
 
-         
-
-            
+        public Order GetOrderById(int id)
+        {
+            return _ctx.Orders
+               .Include(o => o.Items)
+               .ThenInclude(i => i.Product)
+               .Where(o => o.Id ==id)
+               .FirstOrDefault();
         }
 
         public IEnumerable<Product> GetProductsByCategory(string category)
@@ -52,6 +78,11 @@ namespace DutchArt.Data
         public bool SaveAll()
         {
             return _ctx.SaveChanges() > 0;
+        }
+
+        public void AddEntity(object model)
+        {
+            _ctx.Add(model);
         }
 
     }
