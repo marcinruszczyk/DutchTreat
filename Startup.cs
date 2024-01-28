@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using DutchArt.Data;
 using DutchArt.Services;
@@ -12,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace DutchArt
 {
@@ -38,10 +40,13 @@ namespace DutchArt
 
             services.AddTransient<DutchSeeder>();
 
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
             services.AddScoped<IDutchRepository, DutchRepository>();
 
             services.AddControllersWithViews()
-              .AddRazorRuntimeCompilation();
+              .AddRazorRuntimeCompilation()
+              .AddNewtonsoftJson(cfg => cfg.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             services.AddRazorPages();
         }
 
